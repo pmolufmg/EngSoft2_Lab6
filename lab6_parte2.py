@@ -65,7 +65,7 @@ A solução desenvolvida implementa o seguinte algoritmo:
 	Ix = MAx * NFx, onde 
 		- Ix é a importância do autor x para o sistema, 
 		- MAx é a média aritmética de seus valores de autoria normalizados e
-		- NFx é o número de arquivos considerados da autoria de x
+		- NFx é a fração do número de arquivos considerados da autoria de x
 	
 	11. Ordena-se, de modo decrescente, a lista de valores de importância.
 	
