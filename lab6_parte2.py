@@ -154,6 +154,9 @@ class TruckFactor:
 	def normalize_doa(doa_list):
 		max_val = max(doa_list)
 
+		if max_val == 0:
+			return doa_list
+
 		normalized = list(map((lambda x: x / max_val), doa_list))
 
 		return normalized
